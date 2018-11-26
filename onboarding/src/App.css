@@ -1,0 +1,178 @@
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Estilos onboarding */
+
+.btn__onboarding{
+  font-size: 1em;
+  border: none;
+  padding:.5em;
+  border-radius: .3em;
+  width:8em;
+  color: white;
+}
+
+.continue{
+  background-color: #49A9EA;
+}
+
+.disabled{
+  background-color: #97d5f7;
+}
+
+.back{
+  background-color: #e1e0e2;
+  color:#a5a4a6;
+}
+
+.input__onboarding{
+  width:100%;
+}
+.input__onboarding input{
+    width:70%;
+    font-size: 1em;
+    border-radius: .3em;
+    padding: .4em;
+    border: solid 1px #a5a4a6;
+}
+
+.error input{
+  border: solid 1px #ff4d58;
+  background-color:#fcccce;
+  color:#a5a4a6;
+}
+
+.container__progressBarv1{
+  display: flex;
+  align-items: center;
+}
+.progressBar{
+  width: 85vw;
+  height: 2vh;
+  border-radius: 1em;
+  background-color: #e1e0e2;
+  position: relative;
+}
+
+
+.progress__1{
+  background: linear-gradient(to right, rgba(72,169,234,1) 0%, rgba(72,169,234,1) 24.99%, rgba(230,230,230,1) 25%);
+}
+.progress__2{
+  background: linear-gradient(to right, rgba(72,169,234,1) 0%, rgba(72,169,234,1) 49.99%, rgba(230,230,230,1) 50%);
+}
+.progress__3{
+  background: linear-gradient(to right, rgba(72,169,234,1) 0%, rgba(72,169,234,1) 74.99%, rgba(230,230,230,1) 75%);
+}
+.progress__4{
+  background-color: #49A9EA;
+}
+
+.progressBar img{
+    height: 2em;
+    position: absolute;
+}
+.progress__1 img{
+  position: absolute;
+  left:23%;
+}
+.progress__2 img{
+  position: absolute;
+  left:48%;
+}
+.progress__3 img{
+  position: absolute;
+  left:73%;
+}
+.progress__4 img{
+  position: absolute;
+  left:98%;
+}
+
+/* ProgresBarV2 */
+
+.container__progressBar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width:80vw;
+}
+
+.progressbarv2{
+  width: 75%;
+  height: 2vh;
+  background-color: #e1e0e2;
+  z-index: -1;
+  margin-left:-1em;
+  border-radius: 1em;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.progressv2{
+  height: 2vh;
+  background-color: #49A9EA;
+  border-radius: 1em;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+
+}
+.progressv2__rocket{
+  height:2em;
+  margin-left: -1em;
+}
+
+.p_step1{
+  width:25%;
+}
+.p_step2{
+  width:50%;
+}
+.p_step3{
+  width:75%;
+}
+.p_step4{
+  width:100%;
+  border-radius:1em;
+}
+
+
+/* Titulos Onboarding */
+
+.title__Onboarding{
+  font-family: 'Roboto', sans-serif;
+}
